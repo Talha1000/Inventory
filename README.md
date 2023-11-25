@@ -1,0 +1,20 @@
+Laravel Inventory Management System
+Welcome to the Laravel Inventory Management System (IMS) project! This system has been designed to provide a simplified solution for managing product details within a Laravel framework. Whether you're a developer looking to explore Laravel or someone seeking a straightforward inventory management tool, this project is meant to serve as a foundation for your needs.
+
+Installation
+To get started, clone this repository to your local machine using the command git clone https://github.com/your-username/inventory_management_system.git. After navigating to the project directory, run composer install to install the necessary dependencies. Copy the .env.example file to create a new .env file, and generate the application key with php artisan key:generate.
+
+Database Setup
+Create a MySQL database and update the .env file with your database credentials. Run php artisan migrate to set up the required tables. Optionally, you can seed the database with sample data using php artisan db:seed.
+
+Usage
+Start the development server with php artisan serve and access the application in your browser at http://localhost:8000. The application provides user-friendly interfaces for managing products, including functionalities for adding, viewing, updating, and deleting product details.
+
+Authentication
+User authentication is integrated into the system to ensure secure access to product management features. Only logged-in users can perform CRUD operations on product data.
+
+Folder Structure
+The project's folder structure is organized to maintain a clean separation of concerns. The app directory contains the core application logic, while the resources directory holds assets such as Blade views and frontend resources. Route definitions are located in the routes directory, and migrations and seeders can be found in the database directory.
+
+License
+This project is open-source and distributed under the MIT License. Feel free to modify and adapt it to your requirements. If you encounter any issues or have suggestions, please don't hesitate to contribute or reach out to the community for support. Happy coding!
